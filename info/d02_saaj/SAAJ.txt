@@ -1,0 +1,35 @@
+SAAJ -基本定義
+SAAJ是在鬆散耦合軟體系統中利用SOAP協議實現的基於XML消息傳遞的API規範。
+
+顧名思義，SAAJ支持帶附件的SOAP消息。
+
+
+
+對於Java API for XML Messaging (jaxm)，您已經了解很多，並且可能感到奇怪，究竟JAXM發生了什麼事？
+JAXM 1.0的理念是通過提供消息傳遞和SOAP API，允許開發人員根據SOAP編寫支持消息傳遞標準的業務應用程序。
+隨著JAXM 1.1版的推出，SOAP API(javax.xml.soap)被分割成了SAAJ1.1規範和JAXM1.1，JAXM1.1隻包含基於消息傳遞的API（javax.xml.messaging）。
+
+
+
+目前，正在使用的SAAJ版本是1.2。
+SAAJ 1.2 API主要由javax.xml.soap包組成，它為帶有多用途互連網郵件擴展協議(MIME)附件的SOAP消息提供抽象。該API提供了創建到端點的點到點連接的方法、創建並處理SOAP消息和附件的方法，以及接收和處理SOAP錯誤的方法。
+雖然在開發企業應用程序的時候，有幾種技術供您選擇，但對於不同的問題，某些技術可能更合適。選擇正確的工具非常重要。
+
+
+
+
+
+
+
+
+
+
+
+https://zh.wikipedia.org/wiki/SAAJ
+
+
+
+
+
+
+
